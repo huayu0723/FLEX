@@ -6,5 +6,5 @@
  [![Build Status](https://travis-ci.org/Flipboard/FLEX.svg?branch=master)](https://travis-ci.org/Flipboard/FLEX)
  [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Display the explorer window by default. This could be quite handy if you're going to inspect a third-party app with the power of FLEX, combined with a injection framework, like [IPAPatch](https://github.com/Naituw/IPAPatch). 
+Display the explorer window by default. This could be quite handy if you're going to inspect a third-party app with the power of FLEX, combined with an injection framework, like [IPAPatch](https://github.com/Naituw/IPAPatch). 
 
