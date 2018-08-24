@@ -164,6 +164,8 @@
 		94AAF0381BAF2E1F00DE8760 /* FLEXKeyboardHelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AAF0361BAF2E1F00DE8760 /* FLEXKeyboardHelpViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		94AAF0391BAF2E1F00DE8760 /* FLEXKeyboardHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AAF0371BAF2E1F00DE8760 /* FLEXKeyboardHelpViewController.m */; };
 		94AAF03A1BAF2F0300DE8760 /* FLEXKeyboardShortcutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 942DCD821BAE0AD300DB5DC2 /* FLEXKeyboardShortcutManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E64DA2A7212FE34E00EC11A3 /* UIWindow+FLEXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E64DA2A5212FE34E00EC11A3 /* UIWindow+FLEXManager.m */; };
+		E64DA2A8212FE34E00EC11A3 /* UIWindow+FLEXManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E64DA2A6212FE34E00EC11A3 /* UIWindow+FLEXManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -327,6 +329,8 @@
 		94A515241C4CA2080063292F /* FLEXToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLEXToolbarItem.m; path = Classes/Toolbar/FLEXToolbarItem.m; sourceTree = SOURCE_ROOT; };
 		94AAF0361BAF2E1F00DE8760 /* FLEXKeyboardHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLEXKeyboardHelpViewController.h; sourceTree = "<group>"; };
 		94AAF0371BAF2E1F00DE8760 /* FLEXKeyboardHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLEXKeyboardHelpViewController.m; sourceTree = "<group>"; };
+		E64DA2A5212FE34E00EC11A3 /* UIWindow+FLEXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FLEXManager.m"; sourceTree = "<group>"; };
+		E64DA2A6212FE34E00EC11A3 /* UIWindow+FLEXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FLEXManager.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +368,8 @@
 			children = (
 				3A4C94241B5B20570088C3F2 /* FLEX.h */,
 				94A515131C4CA1C00063292F /* FLEXManager.h */,
+				E64DA2A6212FE34E00EC11A3 /* UIWindow+FLEXManager.h */,
+				E64DA2A5212FE34E00EC11A3 /* UIWindow+FLEXManager.m */,
 				94A515111C4C9C1B0063292F /* Manager */,
 				94A515121C4C9E7B0063292F /* ExplorerInterface */,
 				3A4C94661B5B21410088C3F2 /* Editing */,
@@ -692,6 +698,7 @@
 				3A4C94FF1B5B21410088C3F2 /* FLEXArgumentInputSwitchView.h in Headers */,
 				3A4C94E71B5B21410088C3F2 /* FLEXHierarchyTableViewCell.h in Headers */,
 				224D49AA1C673AB5000EAB86 /* FLEXSQLiteDatabaseManager.h in Headers */,
+				E64DA2A8212FE34E00EC11A3 /* UIWindow+FLEXManager.h in Headers */,
 				3A4C95031B5B21410088C3F2 /* FLEXArgumentInputView.h in Headers */,
 				94A5151D1C4CA1F10063292F /* FLEXExplorerViewController.h in Headers */,
 				3A4C94C51B5B21410088C3F2 /* FLEXArrayExplorerViewController.h in Headers */,
@@ -828,6 +835,7 @@
 				3A4C94CE1B5B21410088C3F2 /* FLEXGlobalsTableViewControllerEntry.m in Sources */,
 				3A4C94FE1B5B21410088C3F2 /* FLEXArgumentInputStructView.m in Sources */,
 				3A4C94E01B5B21410088C3F2 /* FLEXMultilineTableViewCell.m in Sources */,
+				E64DA2A7212FE34E00EC11A3 /* UIWindow+FLEXManager.m in Sources */,
 				3A4C95431B5B21410088C3F2 /* FLEXNetworkObserver.m in Sources */,
 				3A4C94D21B5B21410088C3F2 /* FLEXLayerExplorerViewController.m in Sources */,
 				779B1EDB1C0C4D7C001F5E49 /* FLEXTableListViewController.m in Sources */,
